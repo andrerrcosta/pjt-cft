@@ -17,7 +17,6 @@ import java.util.Set;
 @Slf4j
 @Service("sqlService")
 @RequiredArgsConstructor
-@Qualifier("sqlService")
 public class SqlService implements TaskService {
 
     private final EmployeeJpaRepository repository;
